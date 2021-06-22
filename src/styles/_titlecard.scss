@@ -1,0 +1,23 @@
+.titlecard-container {
+  z-index: 2;
+  display: flex;
+  border: 5px solid red;
+  top: 46%;
+  left: 32%;
+  width: 36%;
+  position: fixed;
+
+  &--right {
+    border: 5px solid green;
+    z-index: 2;
+    display: flex;
+    top: 46%;
+    left: 32%;
+    width: 36%;
+    position: fixed;
+  }
+
+  &--left {
+    border: 5px solid blue;
+  }
+}

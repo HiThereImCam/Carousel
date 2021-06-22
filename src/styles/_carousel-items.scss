@@ -1,0 +1,17 @@
+.carousel-item img {
+  min-height: 100vh;
+  max-width: 100%;
+}
+
+.carousel-item-mobile img {
+  min-height: 100vh;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.carousel-item-mobile {
+  overflow: hidden;
+}

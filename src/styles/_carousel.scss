@@ -1,0 +1,44 @@
+// .carousel-container {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+.leftArrow {
+  height: 4%;
+  width: 7%;
+  position: fixed;
+  z-index: 1;
+  left: 0%;
+  top: 50%;
+  cursor: pointer;
+}
+
+.rightArrow {
+  height: 4%;
+  width: 7%;
+  position: fixed;
+  z-index: 1;
+  right: 0%;
+  top: 50%;
+  cursor: pointer;
+}
+
+.slide {
+  transition-duration: 1s ease-in;
+}
+
+.slide.active {
+  transition-duration: 1.5s;
+  transform: scale(1.02);
+}
+
+@media screen and (max-width: 767px) {
+  .leftArrow {
+    display: none !important;
+  }
+
+  .rightArrow {
+    display: none !important;
+  }
+}
